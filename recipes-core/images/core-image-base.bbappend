@@ -7,4 +7,5 @@ IMAGE_INSTALL_append = " \
     docker \
     containerd-opencontainers \
     runc-docker \
+    rsync \
     "
