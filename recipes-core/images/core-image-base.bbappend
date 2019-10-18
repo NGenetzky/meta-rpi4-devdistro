@@ -9,4 +9,6 @@ IMAGE_INSTALL_append = " \
     runc-docker \
     rsync \
     git \
+    wget \
+    curl \
     "
