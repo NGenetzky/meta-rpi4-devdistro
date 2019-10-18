@@ -1,6 +1,6 @@
 IMAGE_FEATURES_append = " \
-    ssh-server-dropbear \
     tools-sdk \
+    ssh-server-openssh \
     "
 
 IMAGE_INSTALL_append = " \
@@ -11,4 +11,5 @@ IMAGE_INSTALL_append = " \
     git \
     wget \
     curl \
+    python \
     "
