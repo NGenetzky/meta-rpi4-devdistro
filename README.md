@@ -18,3 +18,20 @@ This layer depends on:
 * URI: git://git.yoctoproject.org/meta-virtualization
   * branch: master
   * revision: HEAD
+
+## Building
+
+Clone the repo and the dependencies into an empty directory.
+
+Setup the build enviroment as follows:
+```
+. ./poky/oe-init-build-env rpi-build
+```
+Build as follows:
+```
+bitbake core-image-base
+```
+
+The resulting image can be written directly to an SD card and the Raspberry PI 4 booted.
+
+The distribution can be used with the remote development extensions found in the insiders edition of Visual Studio Code.
